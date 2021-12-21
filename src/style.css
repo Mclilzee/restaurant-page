@@ -36,3 +36,18 @@ button {
   font-size: larger;
   font-weight: bold;
 }
+
+#contactUs {
+  color: rgb(54, 47, 8);
+}
+
+.detail-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: x-large;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}

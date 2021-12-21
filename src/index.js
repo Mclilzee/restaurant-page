@@ -1,6 +1,7 @@
 import "./style.css";
 import createHomePage from "./homepage.js";
 import createOrders from "./orders.js";
+import about from "./about.js";
 
 function recreate() {
   document.body.removeChild(document.querySelector("#content"));
@@ -22,7 +23,7 @@ function recreate() {
   aboutButton.textContent = "About";
   aboutButton.addEventListener("click", () => {
     recreate();
-    createOrders();
+    about();
   });
 
   const ordersButton = document.createElement("button");
