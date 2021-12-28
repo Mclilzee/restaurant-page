@@ -1,7 +1,9 @@
 html {
   display: flex;
   background-image: url(./images/background.jpg);
-  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   justify-content: center;
   padding: 200px;
 }
